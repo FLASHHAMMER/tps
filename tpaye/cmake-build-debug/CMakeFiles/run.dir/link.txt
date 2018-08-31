@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/run.dir/Ejercicio1.cpp.o CMakeFiles/run.dir/Ejercicio2.cpp.o CMakeFiles/run.dir/Ejercicio3.cpp.o CMakeFiles/run.dir/ejemploarchivo.cpp.o  -o run 

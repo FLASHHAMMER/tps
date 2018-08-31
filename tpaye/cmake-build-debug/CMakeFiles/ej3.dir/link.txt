@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/ej3.dir/Ejercicio1.cpp.o  -o ej3 

@@ -57,27 +57,27 @@ include CMakeFiles/ej2.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ej2.dir/flags.make
 
-CMakeFiles/ej2.dir/Ejercicio1.cpp.o: CMakeFiles/ej2.dir/flags.make
-CMakeFiles/ej2.dir/Ejercicio1.cpp.o: ../Ejercicio1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/franco/Downloads/UTN/tps/tpaye/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ej2.dir/Ejercicio1.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ej2.dir/Ejercicio1.cpp.o -c /home/franco/Downloads/UTN/tps/tpaye/Ejercicio1.cpp
+CMakeFiles/ej2.dir/Ejercicio2.cpp.o: CMakeFiles/ej2.dir/flags.make
+CMakeFiles/ej2.dir/Ejercicio2.cpp.o: ../Ejercicio2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/franco/Downloads/UTN/tps/tpaye/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ej2.dir/Ejercicio2.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ej2.dir/Ejercicio2.cpp.o -c /home/franco/Downloads/UTN/tps/tpaye/Ejercicio2.cpp
 
-CMakeFiles/ej2.dir/Ejercicio1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ej2.dir/Ejercicio1.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/franco/Downloads/UTN/tps/tpaye/Ejercicio1.cpp > CMakeFiles/ej2.dir/Ejercicio1.cpp.i
+CMakeFiles/ej2.dir/Ejercicio2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ej2.dir/Ejercicio2.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/franco/Downloads/UTN/tps/tpaye/Ejercicio2.cpp > CMakeFiles/ej2.dir/Ejercicio2.cpp.i
 
-CMakeFiles/ej2.dir/Ejercicio1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ej2.dir/Ejercicio1.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/franco/Downloads/UTN/tps/tpaye/Ejercicio1.cpp -o CMakeFiles/ej2.dir/Ejercicio1.cpp.s
+CMakeFiles/ej2.dir/Ejercicio2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ej2.dir/Ejercicio2.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/franco/Downloads/UTN/tps/tpaye/Ejercicio2.cpp -o CMakeFiles/ej2.dir/Ejercicio2.cpp.s
 
 # Object files for target ej2
 ej2_OBJECTS = \
-"CMakeFiles/ej2.dir/Ejercicio1.cpp.o"
+"CMakeFiles/ej2.dir/Ejercicio2.cpp.o"
 
 # External object files for target ej2
 ej2_EXTERNAL_OBJECTS =
 
-ej2: CMakeFiles/ej2.dir/Ejercicio1.cpp.o
+ej2: CMakeFiles/ej2.dir/Ejercicio2.cpp.o
 ej2: CMakeFiles/ej2.dir/build.make
 ej2: CMakeFiles/ej2.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/franco/Downloads/UTN/tps/tpaye/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ej2"

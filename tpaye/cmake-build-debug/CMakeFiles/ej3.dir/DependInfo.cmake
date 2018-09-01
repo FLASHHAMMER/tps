@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/franco/Downloads/UTN/tps/tpaye/Ejercicio1.cpp" "/home/franco/Downloads/UTN/tps/tpaye/cmake-build-debug/CMakeFiles/ej3.dir/Ejercicio1.cpp.o"
+  "/home/franco/Downloads/UTN/tps/tpaye/Ejercicio3.cpp" "/home/franco/Downloads/UTN/tps/tpaye/cmake-build-debug/CMakeFiles/ej3.dir/Ejercicio3.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

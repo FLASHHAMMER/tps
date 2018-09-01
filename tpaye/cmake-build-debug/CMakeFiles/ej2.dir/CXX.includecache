@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/franco/Downloads/UTN/tps/tpaye/Ejercicio2.cpp
+iostream
+-
+vector
+-
+array
+-
+stdio.h
+-
+ctime
+-
+

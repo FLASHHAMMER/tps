@@ -156,8 +156,6 @@ Ejercicio1.o: Ejercicio1.cpp.o
 # target to build an object file
 Ejercicio1.cpp.o:
 	$(MAKE) -f CMakeFiles/ej1.dir/build.make CMakeFiles/ej1.dir/Ejercicio1.cpp.o
-	$(MAKE) -f CMakeFiles/ej2.dir/build.make CMakeFiles/ej2.dir/Ejercicio1.cpp.o
-	$(MAKE) -f CMakeFiles/ej3.dir/build.make CMakeFiles/ej3.dir/Ejercicio1.cpp.o
 .PHONY : Ejercicio1.cpp.o
 
 Ejercicio1.i: Ejercicio1.cpp.i
@@ -167,8 +165,6 @@ Ejercicio1.i: Ejercicio1.cpp.i
 # target to preprocess a source file
 Ejercicio1.cpp.i:
 	$(MAKE) -f CMakeFiles/ej1.dir/build.make CMakeFiles/ej1.dir/Ejercicio1.cpp.i
-	$(MAKE) -f CMakeFiles/ej2.dir/build.make CMakeFiles/ej2.dir/Ejercicio1.cpp.i
-	$(MAKE) -f CMakeFiles/ej3.dir/build.make CMakeFiles/ej3.dir/Ejercicio1.cpp.i
 .PHONY : Ejercicio1.cpp.i
 
 Ejercicio1.s: Ejercicio1.cpp.s
@@ -178,9 +174,61 @@ Ejercicio1.s: Ejercicio1.cpp.s
 # target to generate assembly for a file
 Ejercicio1.cpp.s:
 	$(MAKE) -f CMakeFiles/ej1.dir/build.make CMakeFiles/ej1.dir/Ejercicio1.cpp.s
-	$(MAKE) -f CMakeFiles/ej2.dir/build.make CMakeFiles/ej2.dir/Ejercicio1.cpp.s
-	$(MAKE) -f CMakeFiles/ej3.dir/build.make CMakeFiles/ej3.dir/Ejercicio1.cpp.s
 .PHONY : Ejercicio1.cpp.s
+
+Ejercicio2.o: Ejercicio2.cpp.o
+
+.PHONY : Ejercicio2.o
+
+# target to build an object file
+Ejercicio2.cpp.o:
+	$(MAKE) -f CMakeFiles/ej2.dir/build.make CMakeFiles/ej2.dir/Ejercicio2.cpp.o
+.PHONY : Ejercicio2.cpp.o
+
+Ejercicio2.i: Ejercicio2.cpp.i
+
+.PHONY : Ejercicio2.i
+
+# target to preprocess a source file
+Ejercicio2.cpp.i:
+	$(MAKE) -f CMakeFiles/ej2.dir/build.make CMakeFiles/ej2.dir/Ejercicio2.cpp.i
+.PHONY : Ejercicio2.cpp.i
+
+Ejercicio2.s: Ejercicio2.cpp.s
+
+.PHONY : Ejercicio2.s
+
+# target to generate assembly for a file
+Ejercicio2.cpp.s:
+	$(MAKE) -f CMakeFiles/ej2.dir/build.make CMakeFiles/ej2.dir/Ejercicio2.cpp.s
+.PHONY : Ejercicio2.cpp.s
+
+Ejercicio3.o: Ejercicio3.cpp.o
+
+.PHONY : Ejercicio3.o
+
+# target to build an object file
+Ejercicio3.cpp.o:
+	$(MAKE) -f CMakeFiles/ej3.dir/build.make CMakeFiles/ej3.dir/Ejercicio3.cpp.o
+.PHONY : Ejercicio3.cpp.o
+
+Ejercicio3.i: Ejercicio3.cpp.i
+
+.PHONY : Ejercicio3.i
+
+# target to preprocess a source file
+Ejercicio3.cpp.i:
+	$(MAKE) -f CMakeFiles/ej3.dir/build.make CMakeFiles/ej3.dir/Ejercicio3.cpp.i
+.PHONY : Ejercicio3.cpp.i
+
+Ejercicio3.s: Ejercicio3.cpp.s
+
+.PHONY : Ejercicio3.s
+
+# target to generate assembly for a file
+Ejercicio3.cpp.s:
+	$(MAKE) -f CMakeFiles/ej3.dir/build.make CMakeFiles/ej3.dir/Ejercicio3.cpp.s
+.PHONY : Ejercicio3.cpp.s
 
 # Help Target
 help:
@@ -196,6 +244,12 @@ help:
 	@echo "... Ejercicio1.o"
 	@echo "... Ejercicio1.i"
 	@echo "... Ejercicio1.s"
+	@echo "... Ejercicio2.o"
+	@echo "... Ejercicio2.i"
+	@echo "... Ejercicio2.s"
+	@echo "... Ejercicio3.o"
+	@echo "... Ejercicio3.i"
+	@echo "... Ejercicio3.s"
 .PHONY : help
 
 

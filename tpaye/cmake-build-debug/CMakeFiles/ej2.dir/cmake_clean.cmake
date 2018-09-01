@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ej2.dir/Ejercicio1.cpp.o"
+  "CMakeFiles/ej2.dir/Ejercicio2.cpp.o"
   "ej2.pdb"
   "ej2"
 )

@@ -7,5 +7,5 @@ set(CMAKE_CXX_STANDARD 11)
 file(GLOB SOURCE_FILES *.cpp *.h *.hpp)
 
 add_executable(ej1 Ejercicio1.cpp)
-add_executable(ej2 Ejercicio1.cpp)
-add_executable(ej3 Ejercicio1.cpp)
+add_executable(ej2 Ejercicio2.cpp)
+add_executable(ej3 Ejercicio3.cpp)

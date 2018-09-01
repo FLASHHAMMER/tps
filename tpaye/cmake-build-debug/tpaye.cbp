@@ -178,12 +178,11 @@
 		</Build>
 		<Unit filename="/home/franco/Downloads/UTN/tps/tpaye/Ejercicio1.cpp">
 			<Option target="ej1"/>
-			<Option target="ej2"/>
-			<Option target="ej3"/>
 		</Unit>
-		<Unit filename="/home/franco/Downloads/UTN/tps/tpaye/Ejercicio1.h">
-			<Option target="ej1"/>
+		<Unit filename="/home/franco/Downloads/UTN/tps/tpaye/Ejercicio2.cpp">
 			<Option target="ej2"/>
+		</Unit>
+		<Unit filename="/home/franco/Downloads/UTN/tps/tpaye/Ejercicio3.cpp">
 			<Option target="ej3"/>
 		</Unit>
 		<Unit filename="/home/franco/Downloads/UTN/tps/tpaye/CMakeLists.txt">
